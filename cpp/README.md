@@ -22,7 +22,7 @@ the downloaded file which will create a `libtorch` folder in the current directo
 ```sh
 mkdir build
 cd build
-cmake -DCMAKE_PREFIX_PATH=../libtorch/share/cmake/Torch ..
+cmake -DCMAKE_PREFIX_PATH=$PWD/../libtorch/share/cmake/Torch ..
 cmake --build . --config Release
 ```
 
